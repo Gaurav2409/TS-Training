@@ -1,0 +1,22 @@
+{
+  "name": "ts-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav2409/TS-Training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurav2409/TS-Training/issues"
+  },
+  "homepage": "https://github.com/Gaurav2409/TS-Training#readme",
+  "dependencies": {
+    "validator": "^10.8.0"
+  }
+}
