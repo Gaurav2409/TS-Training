@@ -1,12 +1,27 @@
-var start = function (callback) {
-    setTimeout(function () {
-        callback('Hello');
-        setTimeout(function () {
-            callback('And Welcome');
-            setTimeout(function () {
-                callback('To Async Await Using TypeScript');
-            }, 1000);
-        }, 1000);
-    }, 1000);
+var displayName = "Standing desk";
+var trackingNumber = "FD12345";
+var createDate = new Date();
+var originalCost = 425;
+var inventoryType;
+(function (inventoryType) {
+    inventoryType["Computer"] = "computer";
+    inventoryType["Furniture"] = "furniture";
+})(inventoryType || (inventoryType = {}));
+function getInventoryItem(trackingNumber) {
+    return null;
+}
+function saveInventoryItem(item) {
+}
+var inventoryItem = getInventoryItem(trackingNumber);
+var test = function (value) {
+    console.log(value);
+    return "Done";
 };
-start(function (text) { return console.log(text); });
+test("Interface implemented");
+saveInventoryItem({
+    displayName: "Macbook Pro Retina",
+    inventoryType: inventoryType.Computer,
+    trackingNumber: "FD12345",
+    createDate: new Date(),
+    originalCost: 425
+});
